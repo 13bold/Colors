@@ -3,7 +3,7 @@
 //  Colors
 //
 //  Created by Matt Patenaude on 7/19/09.
-//  Copyright 2009 Slightly Pretentious Software. All rights reserved.
+//  Copyright 2009 Matt Patenaude. All rights reserved.
 //
 
 #import "CPatternController.h"

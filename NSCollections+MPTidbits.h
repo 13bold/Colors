@@ -3,7 +3,7 @@
 //  MPTidbits
 //
 //  Created by Matt Patenaude on 12/22/08.
-//  Copyright 2008 Slightly Pretentious Software. All rights reserved.
+//  Copyright 2008 Matt Patenaude. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>16</integer>
+									<integer>15</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -312,12 +310,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSColor+CAdditions.m</string>
+								<string>NSString+MPTidbits.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,28 +325,30 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NSColor+CAdditions.m</string>
+										<string>NSString+MPTidbits.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C9F30FCD107A7EBD00C78335</string>
+										<string>C984AB7A10A29190003176C9</string>
 										<key>history</key>
 										<array>
 											<string>C972A2E00DF21232006F159E</string>
 											<string>C9321DC41013D51500979881</string>
 											<string>C9A04151101BAC6400ACFD6C</string>
 											<string>C91372E810269AEC003C0025</string>
-											<string>C9439919104DC7FD004B5C87</string>
-											<string>C943991A104DC7FD004B5C87</string>
-											<string>C943991B104DC7FD004B5C87</string>
-											<string>C943991C104DC7FD004B5C87</string>
-											<string>C9B11C49107A7D6C009C1FCB</string>
 											<string>C9BD6E41107A7DD30035697C</string>
-											<string>C9BD6E42107A7DD30035697C</string>
 											<string>C9BD6E44107A7E710035697C</string>
-											<string>C9BD6E45107A7E710035697C</string>
-											<string>C9BD6E46107A7E710035697C</string>
-											<string>C9BD6E47107A7E710035697C</string>
+											<string>C984AB6F10A29190003176C9</string>
+											<string>C984AB7010A29190003176C9</string>
+											<string>C984AB7110A29190003176C9</string>
+											<string>C984AB7210A29190003176C9</string>
+											<string>C984AB7310A29190003176C9</string>
+											<string>C984AB7410A29190003176C9</string>
+											<string>C984AB7510A29190003176C9</string>
+											<string>C984AB7610A29190003176C9</string>
+											<string>C984AB7710A29190003176C9</string>
+											<string>C984AB7810A29190003176C9</string>
+											<string>C984AB7910A29190003176C9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,14 +360,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {925, 342}}</string>
+								<string>{{0, 0}, {925, 332}}</string>
 								<key>RubberWindowFrame</key>
 								<string>81 167 1133 704 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>342pt</string>
+							<string>332pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -378,14 +380,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 347}, {925, 316}}</string>
+								<string>{{0, 337}, {925, 326}}</string>
 								<key>RubberWindowFrame</key>
 								<string>81 167 1133 704 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>316pt</string>
+							<string>326pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -404,9 +406,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C9F30FC3107A7E8100C78335</string>
+				<string>C984AB7B10A29190003176C9</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>C9F30FC4107A7E8100C78335</string>
+				<string>C984AB7C10A29190003176C9</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -542,6 +544,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>C976A2260D970A8D0066BDC3</string>
 		<string>/Users/matt/Documents/Colors/Colors.xcodeproj</string>
 	</array>
@@ -623,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>C976A2260D970A8D0066BDC3</string>
-				<string>C9F30FC5107A7E8100C78335</string>
+				<string>C984AB6B10A2917E003176C9</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -776,14 +779,12 @@
 							<key>Dock</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NSColor+MPWebAdditions.m</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -804,6 +805,8 @@
 							<string>212pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -839,8 +842,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>C9D3985F101391C800EC9EF0</string>
-				<string>C9D39860101391C800EC9EF0</string>
+				<string>C984AB6D10A2917E003176C9</string>
+				<string>C984AB6E10A2917E003176C9</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
