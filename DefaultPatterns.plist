@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>#rrggbb</string>
+		<key>pattern</key>
+		<string>#%r%g%b</string>
+		<key>redFormat</key>
+		<string>hexPair</string>
+		<key>greenFormat</key>
+		<string>hexPair</string>
+		<key>blueFormat</key>
+		<string>hexPair</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>#rgb</string>
+		<key>pattern</key>
+		<string>#%r%g%b</string>
+		<key>redFormat</key>
+		<string>hexSingleton</string>
+		<key>greenFormat</key>
+		<string>hexSingleton</string>
+		<key>blueFormat</key>
+		<string>hexSingleton</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>rrggbb</string>
+		<key>pattern</key>
+		<string>%r%g%b</string>
+		<key>redFormat</key>
+		<string>hexPair</string>
+		<key>greenFormat</key>
+		<string>hexPair</string>
+		<key>blueFormat</key>
+		<string>hexPair</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>rgb(r, g, b)</string>
+		<key>pattern</key>
+		<string>rgb(%r, %g, %b)</string>
+		<key>redFormat</key>
+		<string>int255</string>
+		<key>greenFormat</key>
+		<string>int255</string>
+		<key>blueFormat</key>
+		<string>int255</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>rgba(r, g, b, a)</string>
+		<key>pattern</key>
+		<string>rgba(%r, %g, %b, %a)</string>
+		<key>redFormat</key>
+		<string>int255</string>
+		<key>greenFormat</key>
+		<string>int255</string>
+		<key>blueFormat</key>
+		<string>int255</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>hsl(h, s, l)</string>
+		<key>pattern</key>
+		<string>hsl(%h, %s%%, %l%%)</string>
+		<key>redFormat</key>
+		<string>hexPair</string>
+		<key>greenFormat</key>
+		<string>hexPair</string>
+		<key>blueFormat</key>
+		<string>hexPair</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>hsla(h, s, l, a)</string>
+		<key>pattern</key>
+		<string>hsla(%h, %s%%, %l%%, %a)</string>
+		<key>redFormat</key>
+		<string>hexPair</string>
+		<key>greenFormat</key>
+		<string>hexPair</string>
+		<key>blueFormat</key>
+		<string>hexPair</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>NSColor (Calibrated)</string>
+		<key>pattern</key>
+		<string>[NSColor colorWithCalibratedRed:%r green:%g blue:%b alpha:%a]</string>
+		<key>redFormat</key>
+		<string>dec1</string>
+		<key>greenFormat</key>
+		<string>dec1</string>
+		<key>blueFormat</key>
+		<string>dec1</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>NSColor (Device)</string>
+		<key>pattern</key>
+		<string>[NSColor colorWithDeviceRed:%r green:%g blue:%b alpha:%a]</string>
+		<key>redFormat</key>
+		<string>dec1</string>
+		<key>greenFormat</key>
+		<string>dec1</string>
+		<key>blueFormat</key>
+		<string>dec1</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+</array>
+</plist>
