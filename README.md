@@ -28,4 +28,4 @@ for anyone who would like to use it. Requires Mac OS X 10.5 (Leopard).
 
 ## Downloads
 
-* [Colors-1.10.zip](http://code.google.com/p/tmitter/downloads/detail?name=Colors-1.10.zip&can=2&q=#makechanges)
+* [Colors-1.10.zip](http://tmitter.googlecode.com/files/Colors-1.10.zip)
