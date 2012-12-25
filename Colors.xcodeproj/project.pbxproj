@@ -11,14 +11,16 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		967555DA168955D3008F6B69 /* magnifier.png in Resources */ = {isa = PBXBuildFile; fileRef = 967555D8168955D3008F6B69 /* magnifier.png */; };
+		967555DB168955D3008F6B69 /* magnifier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967555D9168955D3008F6B69 /* magnifier@2x.png */; };
+		967555DE16895955008F6B69 /* hud-prefs.png in Resources */ = {isa = PBXBuildFile; fileRef = 967555DC16895955008F6B69 /* hud-prefs.png */; };
+		967555DF16895955008F6B69 /* hud-prefs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967555DD16895955008F6B69 /* hud-prefs@2x.png */; };
 		C94AEBF710139C820029A1F6 /* CController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94AEBF610139C820029A1F6 /* CController.m */; };
 		C972A2D00DF21202006F159E /* Colors.icns in Resources */ = {isa = PBXBuildFile; fileRef = C972A2CF0DF21202006F159E /* Colors.icns */; };
 		C9A04122101BA99C00ACFD6C /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */; };
 		C9A04149101BA9A000ACFD6C /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */; };
-		C9BD6E3C107A7DBB0035697C /* hud-prefs.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BD6E3B107A7DBB0035697C /* hud-prefs.png */; };
 		C9C31FB7104CB9B500F321FB /* NSCollections+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C31FB4104CB9B500F321FB /* NSCollections+MPTidbits.m */; };
 		C9C31FB8104CB9B500F321FB /* NSString+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C31FB6104CB9B500F321FB /* NSString+MPTidbits.m */; };
-		C9D2C0970D98375D006DC17F /* magnifier.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D2C0960D98375D006DC17F /* magnifier.png */; };
 		C9EAF8C810139E2600A92931 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */; };
 		C9EAF8F510139E3300A92931 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */; };
 		C9EAF91B10139F1500A92931 /* CPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EAF91A10139F1500A92931 /* CPatternController.m */; };
@@ -51,17 +53,19 @@
 		32CA4F630368D1EE00C91783 /* Colors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967555D8168955D3008F6B69 /* magnifier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier.png; sourceTree = "<group>"; };
+		967555D9168955D3008F6B69 /* magnifier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifier@2x.png"; sourceTree = "<group>"; };
+		967555DC16895955008F6B69 /* hud-prefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud-prefs.png"; sourceTree = "<group>"; };
+		967555DD16895955008F6B69 /* hud-prefs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud-prefs@2x.png"; sourceTree = "<group>"; };
 		C94AEBF510139C820029A1F6 /* CController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CController.h; sourceTree = "<group>"; };
 		C94AEBF610139C820029A1F6 /* CController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CController.m; sourceTree = "<group>"; };
 		C972A2CF0DF21202006F159E /* Colors.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Colors.icns; sourceTree = "<group>"; };
 		C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
-		C9BD6E3B107A7DBB0035697C /* hud-prefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud-prefs.png"; sourceTree = "<group>"; };
 		C9C31FB2104CB9B500F321FB /* MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTidbits.h; sourceTree = "<group>"; };
 		C9C31FB3104CB9B500F321FB /* NSCollections+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCollections+MPTidbits.h"; sourceTree = "<group>"; };
 		C9C31FB4104CB9B500F321FB /* NSCollections+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCollections+MPTidbits.m"; sourceTree = "<group>"; };
 		C9C31FB5104CB9B500F321FB /* NSString+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MPTidbits.h"; sourceTree = "<group>"; };
 		C9C31FB6104CB9B500F321FB /* NSString+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MPTidbits.m"; sourceTree = "<group>"; };
-		C9D2C0960D98375D006DC17F /* magnifier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier.png; sourceTree = "<group>"; };
 		C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BWToolkitFramework.framework; sourceTree = "<group>"; };
 		C9EAF91910139F1500A92931 /* CPatternController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPatternController.h; sourceTree = "<group>"; };
 		C9EAF91A10139F1500A92931 /* CPatternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPatternController.m; sourceTree = "<group>"; };
@@ -154,9 +158,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C9BD6E3B107A7DBB0035697C /* hud-prefs.png */,
+				967555DC16895955008F6B69 /* hud-prefs.png */,
+				967555DD16895955008F6B69 /* hud-prefs@2x.png */,
+				967555D8168955D3008F6B69 /* magnifier.png */,
+				967555D9168955D3008F6B69 /* magnifier@2x.png */,
 				C972A2CF0DF21202006F159E /* Colors.icns */,
-				C9D2C0960D98375D006DC17F /* magnifier.png */,
 				C9EAF91E1013A04D00A92931 /* DefaultPatterns.plist */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -203,7 +209,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Colors" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Colors */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,10 +230,12 @@
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				C9D2C0970D98375D006DC17F /* magnifier.png in Resources */,
 				C972A2D00DF21202006F159E /* Colors.icns in Resources */,
 				C9EAF91F1013A04D00A92931 /* DefaultPatterns.plist in Resources */,
-				C9BD6E3C107A7DBB0035697C /* hud-prefs.png in Resources */,
+				967555DA168955D3008F6B69 /* magnifier.png in Resources */,
+				967555DB168955D3008F6B69 /* magnifier@2x.png in Resources */,
+				967555DE16895955008F6B69 /* hud-prefs.png in Resources */,
+				967555DF16895955008F6B69 /* hud-prefs@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +294,9 @@
 				GCC_PREFIX_HEADER = Colors_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = Colors;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -300,7 +314,9 @@
 				GCC_PREFIX_HEADER = Colors_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = Colors;
+				SDKROOT = "";
 			};
 			name = Release;
 		};

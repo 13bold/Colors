@@ -15,7 +15,7 @@
 // Pasteboard functions
 void CCopyStringToPasteboard(NSString *toCopy);
 
-@interface CController : NSObject {
+@interface CController : NSObject <NSApplicationDelegate, NSWindowDelegate> {
 	IBOutlet NSWindow *mainWindow;
 	IBOutlet NSWindow *prefsWindow;
 	
