@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C94AEBF710139C820029A1F6 /* CController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94AEBF610139C820029A1F6 /* CController.m */; };
-		C972A2D00DF21202006F159E /* Colors.icns in Resources */ = {isa = PBXBuildFile; fileRef = C972A2CF0DF21202006F159E /* Colors.icns */; };
-		C9A04122101BA99C00ACFD6C /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */; };
-		C9A04149101BA9A000ACFD6C /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */; };
-		C9BD6E3C107A7DBB0035697C /* hud-prefs.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BD6E3B107A7DBB0035697C /* hud-prefs.png */; };
-		C9C31FB7104CB9B500F321FB /* NSCollections+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C31FB4104CB9B500F321FB /* NSCollections+MPTidbits.m */; };
-		C9C31FB8104CB9B500F321FB /* NSString+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C31FB6104CB9B500F321FB /* NSString+MPTidbits.m */; };
-		C9D2C0970D98375D006DC17F /* magnifier.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D2C0960D98375D006DC17F /* magnifier.png */; };
-		C9EAF8C810139E2600A92931 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */; };
-		C9EAF8F510139E3300A92931 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */; };
-		C9EAF91B10139F1500A92931 /* CPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EAF91A10139F1500A92931 /* CPatternController.m */; };
-		C9EAF91F1013A04D00A92931 /* DefaultPatterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9EAF91E1013A04D00A92931 /* DefaultPatterns.plist */; };
-		C9EAF9251013A23F00A92931 /* NSColor+CAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EAF9241013A23F00A92931 /* NSColor+CAdditions.m */; };
+		967555F81689624A008F6B69 /* CController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967555EC1689624A008F6B69 /* CController.m */; };
+		967555F91689624A008F6B69 /* CPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967555EF1689624A008F6B69 /* CPatternController.m */; };
+		967555FB1689624A008F6B69 /* NSCollections+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = 967555F31689624A008F6B69 /* NSCollections+MPTidbits.m */; };
+		967555FC1689624A008F6B69 /* NSColor+CAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 967555F51689624A008F6B69 /* NSColor+CAdditions.m */; };
+		967555FD1689624A008F6B69 /* NSString+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = 967555F71689624A008F6B69 /* NSString+MPTidbits.m */; };
+		9675560D16896256008F6B69 /* Colors.icns in Resources */ = {isa = PBXBuildFile; fileRef = 967555FF16896256008F6B69 /* Colors.icns */; };
+		9675560E16896256008F6B69 /* DefaultPatterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9675560016896256008F6B69 /* DefaultPatterns.plist */; };
+		9675560F16896256008F6B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9675560116896256008F6B69 /* InfoPlist.strings */; };
+		9675561016896256008F6B69 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9675560316896256008F6B69 /* MainMenu.nib */; };
+		9675561316896256008F6B69 /* hud-prefs.png in Resources */ = {isa = PBXBuildFile; fileRef = 9675560816896256008F6B69 /* hud-prefs.png */; };
+		9675561416896256008F6B69 /* hud-prefs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9675560916896256008F6B69 /* hud-prefs@2x.png */; };
+		9675561616896256008F6B69 /* magnifier.png in Resources */ = {isa = PBXBuildFile; fileRef = 9675560B16896256008F6B69 /* magnifier.png */; };
+		9675561716896256008F6B69 /* magnifier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9675560C16896256008F6B69 /* magnifier@2x.png */; };
+		9675561A16896266008F6B69 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9675561816896266008F6B69 /* BGHUDAppKit.framework */; };
+		9675561B16896266008F6B69 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9675561916896266008F6B69 /* BWToolkitFramework.framework */; };
+		9675561D16896295008F6B69 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9675561C16896295008F6B69 /* Info.plist */; };
+		96755620168962AB008F6B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9675561F168962AB008F6B69 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,41 +34,43 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C9A04149101BA9A000ACFD6C /* BGHUDAppKit.framework in CopyFiles */,
-				C9EAF8F510139E3300A92931 /* BWToolkitFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* Colors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C94AEBF510139C820029A1F6 /* CController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CController.h; sourceTree = "<group>"; };
-		C94AEBF610139C820029A1F6 /* CController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CController.m; sourceTree = "<group>"; };
-		C972A2CF0DF21202006F159E /* Colors.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Colors.icns; sourceTree = "<group>"; };
-		C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
-		C9BD6E3B107A7DBB0035697C /* hud-prefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud-prefs.png"; sourceTree = "<group>"; };
-		C9C31FB2104CB9B500F321FB /* MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTidbits.h; sourceTree = "<group>"; };
-		C9C31FB3104CB9B500F321FB /* NSCollections+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCollections+MPTidbits.h"; sourceTree = "<group>"; };
-		C9C31FB4104CB9B500F321FB /* NSCollections+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCollections+MPTidbits.m"; sourceTree = "<group>"; };
-		C9C31FB5104CB9B500F321FB /* NSString+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MPTidbits.h"; sourceTree = "<group>"; };
-		C9C31FB6104CB9B500F321FB /* NSString+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MPTidbits.m"; sourceTree = "<group>"; };
-		C9D2C0960D98375D006DC17F /* magnifier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier.png; sourceTree = "<group>"; };
-		C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BWToolkitFramework.framework; sourceTree = "<group>"; };
-		C9EAF91910139F1500A92931 /* CPatternController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPatternController.h; sourceTree = "<group>"; };
-		C9EAF91A10139F1500A92931 /* CPatternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPatternController.m; sourceTree = "<group>"; };
-		C9EAF91E1013A04D00A92931 /* DefaultPatterns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultPatterns.plist; sourceTree = "<group>"; };
-		C9EAF9231013A23F00A92931 /* NSColor+CAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+CAdditions.h"; sourceTree = "<group>"; };
-		C9EAF9241013A23F00A92931 /* NSColor+CAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+CAdditions.m"; sourceTree = "<group>"; };
+		967555EB1689624A008F6B69 /* CController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CController.h; sourceTree = "<group>"; };
+		967555EC1689624A008F6B69 /* CController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CController.m; sourceTree = "<group>"; };
+		967555ED1689624A008F6B69 /* Colors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors_Prefix.pch; sourceTree = "<group>"; };
+		967555EE1689624A008F6B69 /* CPatternController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPatternController.h; sourceTree = "<group>"; };
+		967555EF1689624A008F6B69 /* CPatternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPatternController.m; sourceTree = "<group>"; };
+		967555F01689624A008F6B69 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967555F11689624A008F6B69 /* MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTidbits.h; sourceTree = "<group>"; };
+		967555F21689624A008F6B69 /* NSCollections+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCollections+MPTidbits.h"; sourceTree = "<group>"; };
+		967555F31689624A008F6B69 /* NSCollections+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCollections+MPTidbits.m"; sourceTree = "<group>"; };
+		967555F41689624A008F6B69 /* NSColor+CAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+CAdditions.h"; sourceTree = "<group>"; };
+		967555F51689624A008F6B69 /* NSColor+CAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+CAdditions.m"; sourceTree = "<group>"; };
+		967555F61689624A008F6B69 /* NSString+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MPTidbits.h"; sourceTree = "<group>"; };
+		967555F71689624A008F6B69 /* NSString+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MPTidbits.m"; sourceTree = "<group>"; };
+		967555FF16896256008F6B69 /* Colors.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Colors.icns; sourceTree = "<group>"; };
+		9675560016896256008F6B69 /* DefaultPatterns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultPatterns.plist; sourceTree = "<group>"; };
+		9675560216896256008F6B69 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9675560416896256008F6B69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		9675560816896256008F6B69 /* hud-prefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud-prefs.png"; sourceTree = "<group>"; };
+		9675560916896256008F6B69 /* hud-prefs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud-prefs@2x.png"; sourceTree = "<group>"; };
+		9675560B16896256008F6B69 /* magnifier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier.png; sourceTree = "<group>"; };
+		9675560C16896256008F6B69 /* magnifier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifier@2x.png"; sourceTree = "<group>"; };
+		9675561816896266008F6B69 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = Frameworks/BGHUDAppKit.framework; sourceTree = "<group>"; };
+		9675561916896266008F6B69 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = Frameworks/BWToolkitFramework.framework; sourceTree = "<group>"; };
+		9675561C16896295008F6B69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		9675561E168962AB008F6B69 /* Colors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors_Prefix.pch; sourceTree = "<group>"; };
+		9675561F168962AB008F6B69 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,30 +79,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				C9EAF8C810139E2600A92931 /* BWToolkitFramework.framework in Frameworks */,
-				C9A04122101BA99C00ACFD6C /* BGHUDAppKit.framework in Frameworks */,
+				9675561A16896266008F6B69 /* BGHUDAppKit.framework in Frameworks */,
+				9675561B16896266008F6B69 /* BWToolkitFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C94AEBF510139C820029A1F6 /* CController.h */,
-				C94AEBF610139C820029A1F6 /* CController.m */,
-				C9EAF91910139F1500A92931 /* CPatternController.h */,
-				C9EAF91A10139F1500A92931 /* CPatternController.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9A04121101BA99C00ACFD6C /* BGHUDAppKit.framework */,
-				C9EAF8C710139E2600A92931 /* BWToolkitFramework.framework */,
+				9675561816896266008F6B69 /* BGHUDAppKit.framework */,
+				9675561916896266008F6B69 /* BWToolkitFramework.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -126,43 +118,14 @@
 		29B97314FDCFA39411CA2CEA /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
+				9675561E168962AB008F6B69 /* Colors_Prefix.pch */,
+				9675561F168962AB008F6B69 /* main.m */,
+				967555FE16896256008F6B69 /* Resources */,
+				967555EA1689624A008F6B69 /* Classes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = Colors;
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				32CA4F630368D1EE00C91783 /* Colors_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-				C9EAF9231013A23F00A92931 /* NSColor+CAdditions.h */,
-				C9EAF9241013A23F00A92931 /* NSColor+CAdditions.m */,
-				C9C31FB2104CB9B500F321FB /* MPTidbits.h */,
-				C9C31FB3104CB9B500F321FB /* NSCollections+MPTidbits.h */,
-				C9C31FB4104CB9B500F321FB /* NSCollections+MPTidbits.m */,
-				C9C31FB5104CB9B500F321FB /* NSString+MPTidbits.h */,
-				C9C31FB6104CB9B500F321FB /* NSString+MPTidbits.m */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C9BD6E3B107A7DBB0035697C /* hud-prefs.png */,
-				C972A2CF0DF21202006F159E /* Colors.icns */,
-				C9D2C0960D98375D006DC17F /* magnifier.png */,
-				C9EAF91E1013A04D00A92931 /* DefaultPatterns.plist */,
-				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -172,6 +135,42 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		967555EA1689624A008F6B69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				967555EB1689624A008F6B69 /* CController.h */,
+				967555EC1689624A008F6B69 /* CController.m */,
+				967555ED1689624A008F6B69 /* Colors_Prefix.pch */,
+				967555EE1689624A008F6B69 /* CPatternController.h */,
+				967555EF1689624A008F6B69 /* CPatternController.m */,
+				967555F01689624A008F6B69 /* main.m */,
+				967555F11689624A008F6B69 /* MPTidbits.h */,
+				967555F21689624A008F6B69 /* NSCollections+MPTidbits.h */,
+				967555F31689624A008F6B69 /* NSCollections+MPTidbits.m */,
+				967555F41689624A008F6B69 /* NSColor+CAdditions.h */,
+				967555F51689624A008F6B69 /* NSColor+CAdditions.m */,
+				967555F61689624A008F6B69 /* NSString+MPTidbits.h */,
+				967555F71689624A008F6B69 /* NSString+MPTidbits.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		967555FE16896256008F6B69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9675561C16896295008F6B69 /* Info.plist */,
+				967555FF16896256008F6B69 /* Colors.icns */,
+				9675560016896256008F6B69 /* DefaultPatterns.plist */,
+				9675560116896256008F6B69 /* InfoPlist.strings */,
+				9675560316896256008F6B69 /* MainMenu.nib */,
+				9675560816896256008F6B69 /* hud-prefs.png */,
+				9675560916896256008F6B69 /* hud-prefs@2x.png */,
+				9675560B16896256008F6B69 /* magnifier.png */,
+				9675560C16896256008F6B69 /* magnifier@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +202,12 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Colors" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				English,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Colors */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -218,12 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				C9D2C0970D98375D006DC17F /* magnifier.png in Resources */,
-				C972A2D00DF21202006F159E /* Colors.icns in Resources */,
-				C9EAF91F1013A04D00A92931 /* DefaultPatterns.plist in Resources */,
-				C9BD6E3C107A7DBB0035697C /* hud-prefs.png in Resources */,
+				9675560D16896256008F6B69 /* Colors.icns in Resources */,
+				9675560E16896256008F6B69 /* DefaultPatterns.plist in Resources */,
+				9675560F16896256008F6B69 /* InfoPlist.strings in Resources */,
+				9675561016896256008F6B69 /* MainMenu.nib in Resources */,
+				9675561316896256008F6B69 /* hud-prefs.png in Resources */,
+				9675561416896256008F6B69 /* hud-prefs@2x.png in Resources */,
+				9675561616896256008F6B69 /* magnifier.png in Resources */,
+				9675561716896256008F6B69 /* magnifier@2x.png in Resources */,
+				9675561D16896295008F6B69 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,30 +241,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				C94AEBF710139C820029A1F6 /* CController.m in Sources */,
-				C9EAF91B10139F1500A92931 /* CPatternController.m in Sources */,
-				C9EAF9251013A23F00A92931 /* NSColor+CAdditions.m in Sources */,
-				C9C31FB7104CB9B500F321FB /* NSCollections+MPTidbits.m in Sources */,
-				C9C31FB8104CB9B500F321FB /* NSString+MPTidbits.m in Sources */,
+				967555F81689624A008F6B69 /* CController.m in Sources */,
+				967555F91689624A008F6B69 /* CPatternController.m in Sources */,
+				967555FB1689624A008F6B69 /* NSCollections+MPTidbits.m in Sources */,
+				967555FC1689624A008F6B69 /* NSColor+CAdditions.m in Sources */,
+				967555FD1689624A008F6B69 /* NSString+MPTidbits.m in Sources */,
+				96755620168962AB008F6B69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+		9675560116896256008F6B69 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				9675560216896256008F6B69 /* English */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+		9675560316896256008F6B69 /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				9675560416896256008F6B69 /* English */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -273,6 +280,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -282,7 +290,9 @@
 				GCC_PREFIX_HEADER = Colors_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = Colors;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -294,13 +304,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Colors_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = Colors;
+				SDKROOT = "";
 			};
 			name = Release;
 		};

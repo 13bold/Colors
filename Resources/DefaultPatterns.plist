@@ -22,17 +22,37 @@
 		<key>alphaFormat</key>
 		<string>dec1</string>
 	</dict>
-	<dict>
+    <dict>
 		<key>description</key>
-		<string>#rgb</string>
+		<string>rrggbb</string>
 		<key>pattern</key>
-		<string>#%r%g%b</string>
+		<string>%r%g%b</string>
 		<key>redFormat</key>
-		<string>hexSingleton</string>
+		<string>hexPair</string>
 		<key>greenFormat</key>
-		<string>hexSingleton</string>
+		<string>hexPair</string>
 		<key>blueFormat</key>
-		<string>hexSingleton</string>
+		<string>hexPair</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+    <dict>
+		<key>description</key>
+		<string>NSColor (Calibrated)</string>
+		<key>pattern</key>
+		<string>[NSColor colorWithCalibratedRed:%r green:%g blue:%b alpha:%a]</string>
+		<key>redFormat</key>
+		<string>dec1</string>
+		<key>greenFormat</key>
+		<string>dec1</string>
+		<key>blueFormat</key>
+		<string>dec1</string>
 		<key>hueFormat</key>
 		<string>int360</string>
 		<key>saturationFormat</key>
@@ -44,15 +64,35 @@
 	</dict>
 	<dict>
 		<key>description</key>
-		<string>rrggbb</string>
+		<string>UIColor (Device)</string>
 		<key>pattern</key>
-		<string>%r%g%b</string>
+		<string>[UIColor colorWithRed:%r green:%g blue:%b alpha:%a]</string>
 		<key>redFormat</key>
-		<string>hexPair</string>
+		<string>dec1</string>
 		<key>greenFormat</key>
-		<string>hexPair</string>
+		<string>dec1</string>
 		<key>blueFormat</key>
-		<string>hexPair</string>
+		<string>dec1</string>
+		<key>hueFormat</key>
+		<string>int360</string>
+		<key>saturationFormat</key>
+		<string>dec100</string>
+		<key>lightnessFormat</key>
+		<string>dec100</string>
+		<key>alphaFormat</key>
+		<string>dec1</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>#rgb</string>
+		<key>pattern</key>
+		<string>#%r%g%b</string>
+		<key>redFormat</key>
+		<string>hexSingleton</string>
+		<key>greenFormat</key>
+		<string>hexSingleton</string>
+		<key>blueFormat</key>
+		<string>hexSingleton</string>
 		<key>hueFormat</key>
 		<string>int360</string>
 		<key>saturationFormat</key>
@@ -133,46 +173,6 @@
 		<string>hexPair</string>
 		<key>blueFormat</key>
 		<string>hexPair</string>
-		<key>hueFormat</key>
-		<string>int360</string>
-		<key>saturationFormat</key>
-		<string>dec100</string>
-		<key>lightnessFormat</key>
-		<string>dec100</string>
-		<key>alphaFormat</key>
-		<string>dec1</string>
-	</dict>
-	<dict>
-		<key>description</key>
-		<string>NSColor (Calibrated)</string>
-		<key>pattern</key>
-		<string>[NSColor colorWithCalibratedRed:%r green:%g blue:%b alpha:%a]</string>
-		<key>redFormat</key>
-		<string>dec1</string>
-		<key>greenFormat</key>
-		<string>dec1</string>
-		<key>blueFormat</key>
-		<string>dec1</string>
-		<key>hueFormat</key>
-		<string>int360</string>
-		<key>saturationFormat</key>
-		<string>dec100</string>
-		<key>lightnessFormat</key>
-		<string>dec100</string>
-		<key>alphaFormat</key>
-		<string>dec1</string>
-	</dict>
-	<dict>
-		<key>description</key>
-		<string>NSColor (Device)</string>
-		<key>pattern</key>
-		<string>[NSColor colorWithDeviceRed:%r green:%g blue:%b alpha:%a]</string>
-		<key>redFormat</key>
-		<string>dec1</string>
-		<key>greenFormat</key>
-		<string>dec1</string>
-		<key>blueFormat</key>
-		<string>dec1</string>
 		<key>hueFormat</key>
 		<string>int360</string>
 		<key>saturationFormat</key>
