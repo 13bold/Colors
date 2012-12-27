@@ -25,11 +25,14 @@ void CCopyStringToPasteboard(NSString *toCopy)
 - (void)awakeFromNib
 {
 	[self composeInterface];
+    
+    mainWindow.delegate = self;
 }
+
 - (void)applicationWillFinishLaunching:(NSNotification *)aNotification
 {
 	[NSColor setIgnoresAlpha:NO];
-	[[NSColorPanel sharedColorPanel] setDelegate:self];
+    [NSColorPanel sharedColorPanel].delegate = self;
 }
 
 #pragma mark Interface methods
@@ -107,5 +110,15 @@ void CCopyStringToPasteboard(NSString *toCopy)
 	[NSApp activateIgnoringOtherApps:YES];
 	[colorWell setColor:[sender color]];
 }
+
+- (BOOL)windowShouldClose:(id)sender {
+    if(sender == mainWindow) {
+        [[NSApplication sharedApplication] hide:nil];
+        return NO;
+    }
+    return YES;
+}
+
+
 
 @end
