@@ -1,6 +1,10 @@
 Colors, by Matt Patenaude
 =========================
 
+**Important note:** Colors is no longer actively maintained, and does not work properly on OS X Yosemite and later (10.10+). However, former {13bold} partner-in-crime [Laurent Baumann](http://lbaumann.com) picked up where I left off with the slightly-more-French [Couleurs](http://couleursapp.com), which looks and works great on Yosemite!
+
+## About
+
 <img src="https://f.cloud.github.com/assets/5518/30245/c1569b1a-4e4b-11e2-99e1-63f4b24ade25.png" height="128" />
 
 Colors is a simple application for graphic designers, web designers, and anyone 
